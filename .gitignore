@@ -56,3 +56,5 @@ dkms.conf
 
 # cmake build folder
 build/
+# Vendor datasheets (© Microchip): kept locally, not redistributed. Download links in README.md
+datasheets/
