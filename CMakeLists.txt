@@ -14,6 +14,8 @@ target_include_directories(avrpp_rtl INTERFACE
 )
 target_compile_options(avrpp_rtl INTERFACE -Wall -Wextra -Wpedantic)
 
-
 add_executable(avrpp_dbg src/main.cpp)
 target_link_libraries(avrpp_dbg PRIVATE avrpp_rtl)
+
+enable_testing()
+add_subdirectory(tests)
