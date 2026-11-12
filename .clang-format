@@ -1,0 +1,9 @@
+# Google C++ style (https://google.github.io/styleguide/cppguide.html), as shipped with clang-format,
+# with 120 columns instead of 80.
+# Format a file:      clang-format -i src/main.cpp
+# Check without edit: clang-format --dry-run --Werror src/main.cpp
+---
+Language: Cpp
+BasedOnStyle: Google
+Standard: Latest
+ColumnLimit: 120   # Google's default is 80
